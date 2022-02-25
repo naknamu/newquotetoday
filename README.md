@@ -4,9 +4,10 @@ About: This is a website that will showcase different motivational quotes, book 
 
 Key Features:
 1. The home page will display
-    * navigational panel about the different section of the website
-    * some quotes that are found on the website
-    * link to about page, contact us
+    * header
+    * links to the different section of the website
+    * overview of some quotes that are found on the website
+    * footer
 
 2. The section of the website will include different categories.
     * Motivational Quotes
