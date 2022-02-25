@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -9,8 +9,7 @@ body{
 }
 
 .header{
-    font-family: sans-serif;
-    background-color: #000080;
+    background-color: #010135;
     color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -19,33 +18,48 @@ body{
 }
 
 .content{
+    background-color: #fed0d8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1;
-    gap: 16px;
-    background-color: #fed0d8;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 100px 0px;
+    width: 700px;
 }
 
 .quote{
-    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    font-size: 32px;
 }
 
 .author{
     font-size: 16px;
     font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer{
-    font-family: sans-serif;
-    background-color: #000080;
+    background-color: #010135;
     color: whitesmoke;
     display: flex;
     justify-content: center;
     padding: 16px 0;
     font-size: 16px;
     gap: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
